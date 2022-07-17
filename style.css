@@ -1,0 +1,221 @@
+
+.man {
+height: 800px;
+background-image: url(max.jpg);
+background-size: cover;
+width: 1600px;
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto', sans-serif;
+}
+nav {
+
+	width: 200px;
+background-size: cover;
+	display: flex;
+	flex-direction: column;
+	margin-left: 400px
+	
+
+}
+.nav_inner {
+	margin-top: 50px;
+	display: flex;
+    width:800px;
+    justify-content: space-around;
+}
+.nav_inner img {
+	width: 65px;
+}
+.nav_inner a{
+	color: white;
+	text-decoration: none;
+}
+.web {
+	height: 50px;
+	color: white;
+	font-size: 40px;
+	margin-left: 350px;
+	margin-top: 100px; 
+}
+.web1 {
+	margin-top: 70px;
+	width: 500px;
+	color: white;
+	font-size: 20px;
+	margin-left: 510px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+text-decoration:none;
+	margin-left: 690px;
+	width: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1px;
+}
+.button {
+	border: none;
+	text-decoration:none;
+	color: white;
+	background: #00BFFF;
+	height: 50px;
+	width: 180px;
+}
+.man1 {
+	width: 1500px;
+    font-family: 'Roboto', sans-serif;
+	height: 700px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+.mani img{
+	height: 700px;
+}
+.mani {
+	width: 500px;
+	margin-top: 220px;
+	margin-left: 340px;
+	width: 390px;
+	padding-right: 2px;
+}
+.mani p {
+	width: 400px;
+}
+.manp {
+	height: 600px;
+	padding-top: 20px;
+}
+.manp img {
+	width: 600px;
+	height: 670px
+}
+.manq img{
+border-radius: 360px
+}
+.man2 {
+	height: 600px;
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.manq { 
+	 margin-left: 400px;
+     width: 500px;
+     text-align: center;
+     padding-right: 200px;
+     margin-top: 160px;
+ }
+ .manq p{
+ 	width: 300px;
+ }
+ .manw img{
+ 	height: 250px;
+ 	margin-top: 140px;
+ }
+ .mane img{
+ 	margin-left: 20px;
+ 	height: 250px;
+ 	margin-top: 140px;
+ }
+ main {
+ 	font-family: 'Roboto', sans-serif;
+	height: 700px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+ }
+ .manr img{
+ 	height: 600px;
+ 	margin-top: 50px;
+ 	margin-left: 200px;
+ }
+ .mant p{
+  width: 464px;
+ }
+.mant {
+margin-top: 210px;
+margin-left: 150px;
+}
+section {
+	font-family: 'Roboto', sans-serif;
+	height: 550px;
+	background-image: url(q.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+    color: white;
+}
+section input {
+	width: 280px;
+	height: 40px;
+	color: grey;
+	text-align: left;
+	 margin-left: 600px;
+}
+section h1{
+    margin-top: 300px;
+    margin-left: 600px;
+}
+.mano img{
+	width: 52px;
+	height: 45px
+}
+.mano {
+	display: inline-flex;
+
+}
+article {
+	font-family: 'Roboto', sans-serif;
+	height: 450px;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: 100px
+
+}
+.manp {
+	width: 550px;
+	height: 170px
+}
+.mana img{
+height: 50px
+}
+.masa img{
+	height: 50px;	
+}
+.masa {
+	display: inline-flex;
+	padding-left: 40px
+}
+.mana {
+	display: inline-flex;
+}
+.manf {
+	display: inline-flex;
+	margin-left: 40px
+}
+footer {
+	height: 200px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	padding-top: 80px;
+	font-size: 15px;
+}
+footer img{
+	height: 50px;
+	margin-left: 570px;
+
+}
