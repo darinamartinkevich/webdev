@@ -1,0 +1,156 @@
+body {
+	margin: 0px;
+	background-color: pink;
+}
+header {
+	
+	background-image: url(tyt.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+.containerm {
+	width: 98vw;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.containerm img {
+    border-radius: 10px;
+    height: 100px;
+    float: left;
+}
+nav {
+	display: flex;
+	justify-content: flex-start;
+    margin-top: 20px;
+    margin-right: 60px;
+    float: right;
+    
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0px;
+}
+nav li {
+    display: inline-block;
+
+}
+
+.nav_inner {
+	display: flex;
+	flex-direction: row;
+}
+a {
+	font-family: 'Bad Script', cursive;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    color:#b44df0;
+}
+.nem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: 'Bad Script', cursive;
+    font-weight: 400px;
+    font-size: 32px;
+    flex-direction: column;
+    background-image: url(tyt.jpg);
+	background-size: cover;
+}
+
+
+.nem img{
+	height: 440px;
+}
+
+
+.container_1m {
+
+	font-family: 'Bad Script', cursive;
+	
+	width: 90vw;
+
+	display: flex;
+
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.container_1m img{
+	margin-left: 20px;
+	margin-right: 30px;
+	border-radius: 360px;
+	width: 130px;
+} 
+.container_1m p{
+	width: 70vw;
+}
+.thrm {
+	font-family: 'Bad Script', cursive;
+	width: 70vw;
+	display: flex;
+	flex-direction: row;
+	margin-left: 20vw;
+}
+.foum {
+	margin-left: 40vw;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: 1fr;
+}
+.foum img {
+	height: 200px;
+	width: 130px;
+}
+.fou1m {
+	display: flex;
+	flex-direction: column;
+}
+.fou2m {
+	display: flex;
+	flex-direction: column;
+}
+.fou3m {
+	display: flex;
+	flex-direction: column;
+}
+.fou1m p{
+	font-family: 'Bad Script', cursive;
+	margin: 10px 0px 0px 0px;
+}
+.fou2m p{
+	font-family: 'Bad Script', cursive;
+	margin: 10px 0px 0px 0px;
+}
+.fou3m p{
+	font-family: 'Bad Script', cursive;
+	margin: 10px 0px 0px 0px;
+}
+
+
+label {
+
+	font-family: 'Bad Script', cursive;
+}
+.reem {
+
+	margin-left: 100px;
+}
+input {
+	height: 80px;
+}
+
+.hkl {
+	background-image: url(tyt.jpg);
+	background-size: cover;
+}
+
+.links {
+	background-image: url(tyt.jpg);
+	background-size: cover;
+	padding: 30px 0px 30px 100px;
+}
