@@ -1,9 +1,10 @@
-
+body {
+	width: 2000px;
+}
 .man {
 height: 800px;
-background-image: url(max.jpg);
+background-image: url(max.png);
 background-size: cover;
-width: 1600px;
 margin: 0px;
 padding: 0px;
 font-family: 'Roboto', sans-serif;
@@ -18,14 +19,20 @@ background-size: cover;
 	
 
 }
+.rer img{
+	margin-left: 700px;
+	margin-top: 250px;
+}
 .nav_inner {
-	margin-top: 50px;
+	margin-top: 47px;
 	display: flex;
     width:800px;
     justify-content: space-around;
+    text-align: center;
 }
 .nav_inner img {
-	width: 65px;
+    
+	width: 55px;
 }
 .nav_inner a{
 	color: white;
@@ -35,26 +42,26 @@ background-size: cover;
 	height: 50px;
 	color: white;
 	font-size: 40px;
-	margin-left: 350px;
-	margin-top: 100px; 
+	margin-left: 505px;
+	margin-top: 200px; 
 }
 .web1 {
-	margin-top: 70px;
+	margin-top: 20px;
 	width: 500px;
 	color: white;
 	font-size: 20px;
-	margin-left: 510px;
+	margin-left: 620px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 }
 .container {
 text-decoration:none;
-	margin-left: 690px;
+	margin-left: 790px;
 	width: 180px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 1px;
+	margin-top: 40px;
 }
 .button {
 	border: none;
@@ -63,6 +70,14 @@ text-decoration:none;
 	background: #00BFFF;
 	height: 50px;
 	width: 180px;
+}
+.manf button {
+	border: none;
+	text-decoration:none;
+	color: white;
+	background: #00BFFF;
+	height: 46px;
+	width: 127px;
 }
 .man1 {
 	width: 1500px;
@@ -92,10 +107,10 @@ text-decoration:none;
 	padding-top: 20px;
 }
 .manp img {
-	width: 600px;
-	height: 670px
+	width: 407px;
+	height: 582px
 }
-.manq img{
+.manqu img{
 border-radius: 360px
 }
 .man2 {
@@ -106,19 +121,34 @@ border-radius: 360px
 	font-family: 'Roboto', sans-serif;
 	
 }
+.manwr {
+	padding-top: 0px
+}
+.manwr img {
+	width: 100px;
+}
+.manw {
+	margin-top: 100px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-left: 500px;
+}
 .manq { 
-	 margin-left: 400px;
-     width: 500px;
-     text-align: center;
-     padding-right: 200px;
+	 text-align: center;
+	 margin-left: 250px;
+  
      margin-top: 160px;
  }
  .manq p{
  	width: 300px;
  }
- .manw img{
+.manwe {
+	height: 250px
+}
+ .manwe img{
  	height: 250px;
- 	margin-top: 140px;
+ 	margin-top:50px;
  }
  .mane img{
  	margin-left: 20px;
@@ -147,7 +177,7 @@ margin-left: 150px;
 section {
 	font-family: 'Roboto', sans-serif;
 	height: 550px;
-	background-image: url(q.jpg);
+	background-image: url(bg.png);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -206,16 +236,47 @@ height: 50px
 	margin-left: 40px
 }
 footer {
+	padding-left: 40px;
 	height: 200px;
 	background-color: black;
 	color: white;
 	display: flex;
 	flex-direction: row;
-	padding-top: 80px;
+	padding-top: 100px;
 	font-size: 15px;
 }
-footer img{
+footer p {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+footer img {
+	height: 10px;
+	padding-top: 20px;	
+}
+.footer img{
 	height: 50px;
 	margin-left: 570px;
+}
+.footer {
+	margin-top: 0px;
+}
+.end p{
+	position: absolute;
+width: 170px;
+height: 20px;
+left: 0px;
+top: 0px;
 
+/* body-14-reg */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+text-align: center;
+
+color: #818181;
 }
